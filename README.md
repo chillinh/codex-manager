@@ -8,7 +8,7 @@ Switch Codex accounts in 1 click, monitor quota, and manage sessions from a clea
 ![Built with](https://img.shields.io/badge/built%20with-Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
 ![Latest release](https://img.shields.io/github/v/release/chillinh/codex-manager?style=for-the-badge)
 
-![Codex Manager Screenshot](docs/dashboard-preview.png)
+![Codex Manager Dashboard](docs/screenshots/dashboard.jpg)
 
 ## Download
 
@@ -27,6 +27,28 @@ Codex Manager is built for people who work with multiple Codex accounts and need
 - Import and export for account bundles
 - Desktop-first workflow for Windows
 - Clean dark UI designed for focused daily use
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](docs/screenshots/dashboard.jpg)
+
+### Accounts
+
+![Accounts](docs/screenshots/account.jpg)
+
+### Import / Export
+
+![Import Export](docs/screenshots/import-export.jpg)
+
+### Activity Logs
+
+![Activity Logs](docs/screenshots/log.jpg)
+
+### Settings
+
+![Settings](docs/screenshots/settings.jpg)
 
 ## What This Repository Contains
 
