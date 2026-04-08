@@ -96,3 +96,5 @@ For each release, upload the installer together with `SHA256SUMS.txt` so users c
 
 - The app is currently distributed as a Windows executable build.
 - If Windows SmartScreen appears, users can verify the file hash from the release page before installing.
+- Important Notice: Installing Codex CLI is a prerequisite for using Oauthentic
+- Chú ý, cần cài codex cli để sử dụng  Oauthentic
