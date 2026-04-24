@@ -2,7 +2,7 @@
 
 Switch Codex accounts, monitor quota, repair auth sessions, and control Codex Desktop from a Windows desktop app, tray menu, or local API.
 
-> Current release: v1.0.32. Public Windows build first. Full source code will be released later.
+> Current release: v1.0.34. Public Windows build first. Full source code will be released later.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?style=for-the-badge)
 ![Built with](https://img.shields.io/badge/built%20with-Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
@@ -15,6 +15,7 @@ Switch Codex accounts, monitor quota, repair auth sessions, and control Codex De
 - Windows installer: [Download the latest build](https://github.com/chillinh/codex-manager/releases/latest/download/codex-manager-setup-windows-x64.exe)
 - Release page: [GitHub Releases](https://github.com/chillinh/codex-manager/releases)
 - Local API guide: [docs/LOCAL_API_USAGE.md](docs/LOCAL_API_USAGE.md)
+- v1.0.34 notes: [docs/releases/v1.0.34.md](docs/releases/v1.0.34.md)
 - v1.0.32 notes: [docs/releases/v1.0.32.md](docs/releases/v1.0.32.md)
 
 ## Why Codex Manager
@@ -33,6 +34,8 @@ Codex Manager is built for people who work with multiple Codex accounts and need
 - Prevents File Explorer from opening during switch/reopen flows.
 - Repairs auth drift between Codex Manager store and live `.codex/auth.json`.
 - Handles expired or reused refresh tokens by starting a repair re-auth flow.
+- Switches with a valid saved ChatGPT auth snapshot even when Codex app-server reports `requiresOpenaiAuth` too aggressively.
+- Can complete a repair flow from an already refreshed saved account snapshot if the OAuth browser callback does not return to the app-server runtime.
 - Allows cancelling or restarting an unfinished OAuth/repair flow without restarting the app.
 - Clears selected Codex Desktop session state before reopening to reduce loading-screen hangs.
 - Shows the estimated 10-day re-auth countdown on account cards and account details.
